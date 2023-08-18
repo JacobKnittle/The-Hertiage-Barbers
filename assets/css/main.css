@@ -1917,6 +1917,12 @@ header.major p {
 
 form {
   margin: 0 0 2em 0;
+  border: 3px solid white;
+  padding: 100px;
+}
+
+form input {
+  margin: 30px;
 }
 
 label {
@@ -1924,7 +1930,8 @@ label {
   display: block;
   font-size: 0.9em;
   font-weight: 600;
-  margin: 0 0 1em 0;
+  text-align: left;
+  margin-left: 31px;
 }
 
 input[type='text'],
@@ -3069,7 +3076,7 @@ button:disabled,
 }
 
 .wrapper.style3 {
-  background-color: #505393;
+  background-color: gray;
   color: #d3d4e4;
 }
 
